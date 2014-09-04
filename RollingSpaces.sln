@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RollingSpacesInjectLib", "RollingSpacesInjectLib\RollingSpacesInjectLib.vcproj", "{149CBB1E-A10D-4245-A256-B981AF0FAD7C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5EAE7356-7064-4AA4-B12A-F9E2233493CA} = {5EAE7356-7064-4AA4-B12A-F9E2233493CA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RollingSpaces", "RollingSpaces\RollingSpaces.vcproj", "{7887274A-C7CC-412C-8514-B2D686360F45}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5EAE7356-7064-4AA4-B12A-F9E2233493CA} = {5EAE7356-7064-4AA4-B12A-F9E2233493CA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RollingSpacesHookLib", "RollingSpacesHookLib\RollingSpacesHookLib.vcproj", "{72AD323C-D2E6-4E23-A30C-3F37F83A3D68}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5EAE7356-7064-4AA4-B12A-F9E2233493CA} = {5EAE7356-7064-4AA4-B12A-F9E2233493CA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskBarLib", "TaskBarLib\TaskBarLib.vcproj", "{5EAE7356-7064-4AA4-B12A-F9E2233493CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{149CBB1E-A10D-4245-A256-B981AF0FAD7C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{149CBB1E-A10D-4245-A256-B981AF0FAD7C}.Debug|Win32.Build.0 = Debug|Win32
+		{149CBB1E-A10D-4245-A256-B981AF0FAD7C}.Release|Win32.ActiveCfg = Release|Win32
+		{149CBB1E-A10D-4245-A256-B981AF0FAD7C}.Release|Win32.Build.0 = Release|Win32
+		{7887274A-C7CC-412C-8514-B2D686360F45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7887274A-C7CC-412C-8514-B2D686360F45}.Debug|Win32.Build.0 = Debug|Win32
+		{7887274A-C7CC-412C-8514-B2D686360F45}.Release|Win32.ActiveCfg = Release|Win32
+		{7887274A-C7CC-412C-8514-B2D686360F45}.Release|Win32.Build.0 = Release|Win32
+		{72AD323C-D2E6-4E23-A30C-3F37F83A3D68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{72AD323C-D2E6-4E23-A30C-3F37F83A3D68}.Debug|Win32.Build.0 = Debug|Win32
+		{72AD323C-D2E6-4E23-A30C-3F37F83A3D68}.Release|Win32.ActiveCfg = Release|Win32
+		{72AD323C-D2E6-4E23-A30C-3F37F83A3D68}.Release|Win32.Build.0 = Release|Win32
+		{5EAE7356-7064-4AA4-B12A-F9E2233493CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5EAE7356-7064-4AA4-B12A-F9E2233493CA}.Debug|Win32.Build.0 = Debug|Win32
+		{5EAE7356-7064-4AA4-B12A-F9E2233493CA}.Release|Win32.ActiveCfg = Release|Win32
+		{5EAE7356-7064-4AA4-B12A-F9E2233493CA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
